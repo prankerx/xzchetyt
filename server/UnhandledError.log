@@ -1,0 +1,26 @@
+Time: 05.12.2024 19:39:53;
+Type: System.Net.Sockets.SocketException;
+Message: Требуемый адрес для своего контекста неверен;
+StackTrace:
+   в System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   в Lidgren.Network.NetPeer.InitializeNetwork()
+   в Lidgren.Network.NetPeer.Start()
+   в Engine.Network.P2PService..ctor(IPAddress address, Int32 port, IApi api, Logger logger)
+   в Engine.Network.AsyncServer.StartImpl(IPAddress address)
+   в Engine.Network.AsyncServer.Start(Uri serverUri, Int32 p2pServicePort)
+   в ConsoleServer.Program.Main(String[] argsRaw)
+
+Time: 05.12.2024 19:41:27;
+Type: System.Net.Sockets.SocketException;
+Message: Требуемый адрес для своего контекста неверен;
+StackTrace:
+   в System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   в System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   в Lidgren.Network.NetPeer.InitializeNetwork()
+   в Lidgren.Network.NetPeer.Start()
+   в Engine.Network.P2PService..ctor(IPAddress address, Int32 port, IApi api, Logger logger)
+   в Engine.Network.AsyncServer.StartImpl(IPAddress address)
+   в Engine.Network.AsyncServer.Start(Uri serverUri, Int32 p2pServicePort)
+   в ConsoleServer.Program.Main(String[] argsRaw)
+
